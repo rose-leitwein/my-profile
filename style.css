@@ -1,0 +1,96 @@
+body{
+	background-color: #f2dfd7;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family:Rubik;
+	letter-spacing: 3px;
+	font-size: 24px;
+	color: #8a2846;
+	text-align: center;
+}
+h1 {
+	color:purple;
+	font-weight: 900;
+	letter-spacing: 10px;
+	font-size: 35px;
+	text-align: center;
+}
+h2 {
+	font-weight: 200;
+	font-size: 24px;
+
+}
+a {
+	font-family: rubik;
+	text-decoration: none;
+	color: #0077b6;
+}
+a:hover {
+	color:#e5989b;
+}
+
+div{padding: 60px;
+    background: white;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1)}
+
+#container{
+	background-color: #f2dfd7;
+	box-shadow: none;
+    border-radius: none;
+    text-align: center;
+}
+
+@media(max-width: 500px){
+.container {
+	width: 400px;
+	}
+}
+
+@media (max-width:760px){
+ .container {
+ 	width: 600px;
+	}
+}
+	
+.img-circle{
+	position: center; 
+	width: 280px;
+	margin: 0px 30vw;
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #0077b6;
+	color:white;
+	padding:15px 20px;
+	border-radius: 8px;
+}
+
+.list-inline{
+	list-style: none;
+	padding: 5px;
+}
+.card-white{
+	list-style: none;
+}
+
+.card-white i {
+	font-size: 50px;
+	text-align: center;
+}
+
+#introduction p{
+	margin-bottom: 30PX;
+}
+
+
